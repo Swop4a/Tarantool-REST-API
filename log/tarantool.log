@@ -1,0 +1,116 @@
+2017-05-30 22:08:58.239 [5631] main/101/appconfig.lua C> version 1.7.2-388-g51c2d55
+2017-05-30 22:08:58.239 [5631] main/101/appconfig.lua C> log level 5
+2017-05-30 22:08:58.239 [5631] main/101/appconfig.lua I> mapping 1073741824 bytes for tuple arena...
+2017-05-30 22:08:58.248 [5631] iproto/102/iproto I> binary: started
+2017-05-30 22:08:58.248 [5631] iproto/102/iproto I> binary: bound to 0.0.0.0:3301
+2017-05-30 22:08:58.248 [5631] main/101/appconfig.lua I> initializing an empty data directory
+2017-05-30 22:08:58.263 [5631] snapshot/101/main I> saving snapshot `./00000000000000000000.snap.inprogress'
+2017-05-30 22:08:58.264 [5631] snapshot/101/main I> done
+2017-05-30 22:08:58.282 [5631] main/101/appconfig.lua I> ready to accept requests
+2017-05-30 22:08:58.283 [5631] main/101/appconfig.lua schema.lua:470 W> field type 'num' is deprecated since Tarantool 1.7, please use 'unsigned' instead
+2017-05-30 22:08:58.283 [5631] main/101/appconfig.lua schema.lua:470 W> field type 'num' is deprecated since Tarantool 1.7, please use 'unsigned' instead
+2017-05-30 22:08:58.285 [5631] main C> entering the event loop
+2017-05-30 22:32:18.632 [5631] iproto xrow.cc:54 E> ER_INVALID_MSGPACK: Invalid MsgPack - packet header
+2017-05-30 22:32:18.632 [5631] iproto xrow.cc:54 E> ER_INVALID_MSGPACK: Invalid MsgPack - packet header
+2017-05-30 22:32:18.632 [5631] iproto xrow.cc:54 E> ER_INVALID_MSGPACK: Invalid MsgPack - packet header
+2017-05-30 22:32:18.632 [5631] iproto xrow.cc:54 E> ER_INVALID_MSGPACK: Invalid MsgPack - packet header
+2017-05-30 22:44:57.361 [6045] main/101/appconfig.lua C> version 1.7.2-388-g51c2d55
+2017-05-30 22:44:57.361 [6045] main/101/appconfig.lua C> log level 5
+2017-05-30 22:44:57.361 [6045] main/101/appconfig.lua I> mapping 1073741824 bytes for tuple arena...
+2017-05-30 22:44:57.362 [6045] main/101/appconfig.lua I> recovery start
+2017-05-30 22:44:57.362 [6045] main/101/appconfig.lua I> recovering from `./00000000000000000000.snap'
+2017-05-30 22:44:57.365 [6045] main/101/appconfig.lua I> recover from `./00000000000000000000.xlog'
+2017-05-30 22:44:57.365 [6045] main/101/appconfig.lua I> done `./00000000000000000000.xlog'
+2017-05-30 22:44:57.365 [6045] main/102/hot_standby I> recover from `./00000000000000000000.xlog'
+2017-05-30 22:44:57.366 [6045] iproto/102/iproto I> binary: started
+2017-05-30 22:44:57.366 [6045] iproto/102/iproto I> binary: bound to 0.0.0.0:3301
+2017-05-30 22:44:57.366 [6045] main/101/appconfig.lua I> done `./00000000000000000000.xlog'
+2017-05-30 22:44:57.367 [6045] main/101/appconfig.lua I> ready to accept requests
+2017-05-30 22:44:57.378 [6045] main/101/appconfig.lua F> ./webapp.lua:1: module 'http.server' not found:
+	no field package.preload['http.server']
+	no file './http/server.lua'
+	no file './http/server/init.lua'
+	no file '/home/swop4a/.luarocks/share/lua/5.1/http/server.lua'
+	no file '/home/swop4a/.luarocks/share/lua/5.1/http/server/init.lua'
+	no file '/home/swop4a/.luarocks/share/lua/http/server.lua'
+	no file '/home/swop4a/.luarocks/share/lua/http/server/init.lua'
+	no file '/usr/local/share/tarantool/http/server.lua'
+	no file '/usr/local/share/tarantool/http/serve
+2017-05-30 23:02:22.526 [8483] main/101/appconfig.lua C> version 1.7.2-388-g51c2d55
+2017-05-30 23:02:22.526 [8483] main/101/appconfig.lua C> log level 5
+2017-05-30 23:02:22.526 [8483] main/101/appconfig.lua I> mapping 1073741824 bytes for tuple arena...
+2017-05-30 23:02:22.527 [8483] main/101/appconfig.lua I> recovery start
+2017-05-30 23:02:22.527 [8483] main/101/appconfig.lua I> recovering from `./00000000000000000000.snap'
+2017-05-30 23:02:22.530 [8483] main/101/appconfig.lua I> recover from `./00000000000000000000.xlog'
+2017-05-30 23:02:22.538 [8483] main/101/appconfig.lua I> done `./00000000000000000000.xlog'
+2017-05-30 23:02:22.538 [8483] main/101/appconfig.lua I> recover from `./00000000000000000006.xlog'
+2017-05-30 23:02:22.538 [8483] main/101/appconfig.lua I> done `./00000000000000000006.xlog'
+2017-05-30 23:02:22.538 [8483] main/102/hot_standby I> recover from `./00000000000000000006.xlog'
+2017-05-30 23:02:22.543 [8483] iproto/102/iproto I> binary: started
+2017-05-30 23:02:22.543 [8483] iproto/102/iproto I> binary: bound to 0.0.0.0:3301
+2017-05-30 23:02:22.543 [8483] main/101/appconfig.lua I> done `./00000000000000000006.xlog'
+2017-05-30 23:02:22.548 [8483] main/101/appconfig.lua I> ready to accept requests
+2017-05-30 23:02:22.549 [8483] main/101/appconfig.lua F> ./webapp.lua:1: module 'http.server' not found:
+	no field package.preload['http.server']
+	no file './http/server.lua'
+	no file './http/server/init.lua'
+	no file '/home/swop4a/.luarocks/share/lua/5.1/http/server.lua'
+	no file '/home/swop4a/.luarocks/share/lua/5.1/http/server/init.lua'
+	no file '/home/swop4a/.luarocks/share/lua/http/server.lua'
+	no file '/home/swop4a/.luarocks/share/lua/http/server/init.lua'
+	no file '/usr/local/share/tarantool/http/server.lua'
+	no file '/usr/local/share/tarantool/http/serve
+2017-05-30 23:02:24.707 [8488] main/101/appconfig.lua C> version 1.7.2-388-g51c2d55
+2017-05-30 23:02:24.707 [8488] main/101/appconfig.lua C> log level 5
+2017-05-30 23:02:24.708 [8488] main/101/appconfig.lua I> mapping 1073741824 bytes for tuple arena...
+2017-05-30 23:02:24.708 [8488] main/101/appconfig.lua I> recovery start
+2017-05-30 23:02:24.708 [8488] main/101/appconfig.lua I> recovering from `./00000000000000000000.snap'
+2017-05-30 23:02:24.711 [8488] main/101/appconfig.lua I> recover from `./00000000000000000000.xlog'
+2017-05-30 23:02:24.725 [8488] main/101/appconfig.lua I> done `./00000000000000000000.xlog'
+2017-05-30 23:02:24.725 [8488] main/101/appconfig.lua I> recover from `./00000000000000000006.xlog'
+2017-05-30 23:02:24.725 [8488] main/101/appconfig.lua I> done `./00000000000000000006.xlog'
+2017-05-30 23:02:24.725 [8488] main/101/appconfig.lua I> recover from `./00000000000000000007.xlog'
+2017-05-30 23:02:24.725 [8488] main/101/appconfig.lua I> done `./00000000000000000007.xlog'
+2017-05-30 23:02:24.725 [8488] main/102/hot_standby I> recover from `./00000000000000000007.xlog'
+2017-05-30 23:02:24.727 [8488] iproto/102/iproto I> binary: started
+2017-05-30 23:02:24.728 [8488] iproto/102/iproto I> binary: bound to 0.0.0.0:3301
+2017-05-30 23:02:24.728 [8488] main/101/appconfig.lua I> done `./00000000000000000007.xlog'
+2017-05-30 23:02:24.730 [8488] main/101/appconfig.lua I> ready to accept requests
+2017-05-30 23:02:24.732 [8488] main/101/appconfig.lua F> ./webapp.lua:1: module 'http.server' not found:
+	no field package.preload['http.server']
+	no file './http/server.lua'
+	no file './http/server/init.lua'
+	no file '/home/swop4a/.luarocks/share/lua/5.1/http/server.lua'
+	no file '/home/swop4a/.luarocks/share/lua/5.1/http/server/init.lua'
+	no file '/home/swop4a/.luarocks/share/lua/http/server.lua'
+	no file '/home/swop4a/.luarocks/share/lua/http/server/init.lua'
+	no file '/usr/local/share/tarantool/http/server.lua'
+	no file '/usr/local/share/tarantool/http/serve
+2017-05-30 23:32:19.425 [9064] main/101/appconfig.lua C> version 1.7.2-388-g51c2d55
+2017-05-30 23:32:19.425 [9064] main/101/appconfig.lua C> log level 5
+2017-05-30 23:32:19.425 [9064] main/101/appconfig.lua I> mapping 1073741824 bytes for tuple arena...
+2017-05-30 23:32:19.426 [9064] main/101/appconfig.lua I> recovery start
+2017-05-30 23:32:19.426 [9064] main/101/appconfig.lua I> recovering from `./00000000000000000000.snap'
+2017-05-30 23:32:19.430 [9064] main/101/appconfig.lua I> recover from `./00000000000000000000.xlog'
+2017-05-30 23:32:19.443 [9064] main/101/appconfig.lua I> done `./00000000000000000000.xlog'
+2017-05-30 23:32:19.443 [9064] main/101/appconfig.lua I> recover from `./00000000000000000006.xlog'
+2017-05-30 23:32:19.443 [9064] main/101/appconfig.lua I> done `./00000000000000000006.xlog'
+2017-05-30 23:32:19.443 [9064] main/101/appconfig.lua I> recover from `./00000000000000000007.xlog'
+2017-05-30 23:32:19.443 [9064] main/101/appconfig.lua I> done `./00000000000000000007.xlog'
+2017-05-30 23:32:19.443 [9064] main/101/appconfig.lua I> recover from `./00000000000000000008.xlog'
+2017-05-30 23:32:19.443 [9064] main/101/appconfig.lua I> done `./00000000000000000008.xlog'
+2017-05-30 23:32:19.443 [9064] main/102/hot_standby I> recover from `./00000000000000000008.xlog'
+2017-05-30 23:32:19.447 [9064] iproto/102/iproto I> binary: started
+2017-05-30 23:32:19.447 [9064] iproto/102/iproto I> binary: bound to 0.0.0.0:3301
+2017-05-30 23:32:19.447 [9064] main/101/appconfig.lua I> done `./00000000000000000008.xlog'
+2017-05-30 23:32:19.451 [9064] main/101/appconfig.lua I> ready to accept requests
+2017-05-30 23:32:19.452 [9064] main/101/appconfig.lua F> ./webapp.lua:1: module 'http.server' not found:
+	no field package.preload['http.server']
+	no file './http/server.lua'
+	no file './http/server/init.lua'
+	no file '/home/swop4a/.luarocks/share/lua/5.1/http/server.lua'
+	no file '/home/swop4a/.luarocks/share/lua/5.1/http/server/init.lua'
+	no file '/home/swop4a/.luarocks/share/lua/http/server.lua'
+	no file '/home/swop4a/.luarocks/share/lua/http/server/init.lua'
+	no file '/usr/local/share/tarantool/http/server.lua'
+	no file '/usr/local/share/tarantool/http/serve
